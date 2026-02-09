@@ -141,6 +141,14 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+.paper-thumb {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 16px;
+    background-color: #2a2a3e;
+}
+
 .colored-box {
     color: black;
     padding: 20px;
