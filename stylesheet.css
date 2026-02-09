@@ -141,12 +141,20 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-.paper-thumb {
-    width: 100%;
-    max-width: 160px;
-    height: auto;
-    border-radius: 12px;
+.paper-thumb-container {
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+    overflow: hidden;
     background-color: #2a2a3e;
+    flex-shrink: 0;
+}
+
+.paper-thumb-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .colored-box {
