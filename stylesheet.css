@@ -142,8 +142,8 @@ span.highlight {
 }
 
 .paper-thumb-container {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 120px;
     border-radius: 16px;
     overflow: hidden;
     background-color: #2a2a3e;
