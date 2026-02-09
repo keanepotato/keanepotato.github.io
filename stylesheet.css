@@ -142,10 +142,10 @@ span.highlight {
 }
 
 .paper-thumb {
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 16px;
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    border-radius: 12px;
     background-color: #2a2a3e;
 }
 
